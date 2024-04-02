@@ -1,0 +1,14 @@
+<section id="emp">
+    <article>
+        <aside><h1>all employees</h1></aside>
+        <main class="container">
+            {{#each payload}}
+            <div id="content">
+                <h1>{{this.ename}}</h1>
+                <p> {{this.eid}} </p>
+            </div>
+
+            {{/each}}
+        </main>
+    </article>
+</section>
